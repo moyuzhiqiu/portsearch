@@ -1,7 +1,5 @@
 import requests
 url = r"http://challenge-e49dc6403c20a77e.sandbox.ctfhub.com:10800/"
-extra = url+'{0}'.format('?url=127.0.0.1')
-time = 0
 up = 9000
 down = 8000
 total = up -down
